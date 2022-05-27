@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:#4D40FF;
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #221D73;
+}
+.txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#text-a{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+}
+#txt-b{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+}
+button{
+  width: 150px;
+  height:30px;
+  color: white;
+  background: #DB86D7;
+  border-style: none;
+  border-radius: 30px;
+  border-color: white; 
+}
